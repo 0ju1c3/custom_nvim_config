@@ -22,5 +22,17 @@ require("lspconfig").html.setup{
     on_attach = on_attach,
     capabilities = capabilities
 }
+require("lspconfig").ast_grep.setup{
+    on_attach = on_attach,
+    capabilities = capabilities
+}
+require("lspconfig").tsserver.setup{
+    on_attach = on_attach,
+    capabilities = capabilities
+}
+require("lspconfig").eslint.setup{
+    on_attach = on_attach,
+    capabilities = capabilities
+}
 
 
