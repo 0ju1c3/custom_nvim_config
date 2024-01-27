@@ -21,6 +21,8 @@ gruvbox
 - rafamadriz/friendly-snippets(For vs-code like code snippets)
 - github/copilot.nvim
 - ThePrimeagen/vim-be-good
+- windwp/nvim-autopairs
+
 ### LSP 
 - williamboman/mason.nvim
 - williamboman/mason-lspconfig.nvim
