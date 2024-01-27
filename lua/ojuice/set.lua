@@ -1,7 +1,7 @@
 --number and relative number both are set to true
 vim.opt.nu = true
 vim.opt.relativenumber = true
-
+vim.opt.guicursor = ""
 --for 4 space indenting
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
@@ -31,5 +31,4 @@ vim.opt.signcolumn = "yes"
 vim.opt.updatetime = 50
 
 --vim.opt.colorcolumn = "80"
-
 vim.g.mapleader = " "
