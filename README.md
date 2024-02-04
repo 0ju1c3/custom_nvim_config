@@ -22,6 +22,10 @@ gruvbox
 - github/copilot.nvim
 - ThePrimeagen/vim-be-good
 - windwp/nvim-autopairs
+- folke/noice.nvim(cmdline and notification popups)
+- MunifTanjim/nui.nvim(dependencies for noice.nvim)
+- rcarriga/nvim-notify(dependencies for noice.nvim)
+- Nvchad/nvterm(nvim terminal plugin)
 
 ### LSP 
 - williamboman/mason.nvim

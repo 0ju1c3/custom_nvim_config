@@ -13,7 +13,7 @@ return require('packer').startup(function(use)
     }
     -- Using gruvbox for colorscheme
     use { "ellisonleao/gruvbox.nvim" }
-    --neovim-treesitter
+   --neovim-treesitter
     use('nvim-treesitter/nvim-treesitter', {run=':TSUpdate'})
     --theprimeagens-harpoon
     use('ThePrimeagen/harpoon')
@@ -41,10 +41,18 @@ return require('packer').startup(function(use)
         'williamboman/mason-lspconfig.nvim',
         'neovim/nvim-lspconfig'
     }
+    --auto pairs of brackets
     use {
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
+    --cmdline customisation
+    use {
+        "folke/noice.nvim",
+        --dependencies
+        "MunifTanjim/nui.nvim",
+        "rcarriga/nvim-notify",
+    }
+    --nvterm
+    use "NvChad/nvterm"
 end)
-
-

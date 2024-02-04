@@ -1,3 +1,5 @@
+--setting clipboard(copy and paste)
+vim.opt.clipboard = "unnamedplus"
 --number and relative number both are set to true
 vim.opt.nu = true
 vim.opt.relativenumber = true
