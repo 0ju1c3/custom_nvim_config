@@ -26,6 +26,7 @@ gruvbox
 - MunifTanjim/nui.nvim(dependencies for noice.nvim)
 - rcarriga/nvim-notify(dependencies for noice.nvim)
 - Nvchad/nvterm(nvim terminal plugin)
+- nvim-lualine/lualine.nvim
 
 ### LSP 
 - williamboman/mason.nvim
