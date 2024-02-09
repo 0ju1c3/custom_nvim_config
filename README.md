@@ -6,6 +6,7 @@ At some point I will migrate to Lazy.nvim for lazy loading.
 
 ## Colorscheme
 gruvbox 
+solarized-osaka
 
 ## Plugins
 

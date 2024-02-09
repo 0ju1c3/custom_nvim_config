@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
     }
     -- Using gruvbox for colorscheme
     use { "ellisonleao/gruvbox.nvim" }
+    --Using craftzdog/solarized-osaka
+    use { "craftzdog/solarized-osaka.nvim"}
    --neovim-treesitter
     use('nvim-treesitter/nvim-treesitter', {run=':TSUpdate'})
     --theprimeagens-harpoon

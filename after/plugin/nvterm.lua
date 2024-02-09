@@ -12,7 +12,7 @@ local mappings = {
     { 'n', '<C-l>', function () terminal.send(ft_cmds[vim.bo.filetype]) end },
     { toggle_modes, '<A-h>', function () terminal.toggle('horizontal') end },
     { toggle_modes, '<A-v>', function () terminal.toggle('vertical') end },
-    { toggle_modes, '<A-i>', function () terminal.toggle('float') end },
+    { toggle_modes, '<A-f>', function () terminal.toggle('float') end },
 }
 local opts = { noremap = true, silent = true }
 for _, mapping in ipairs(mappings) do

@@ -181,6 +181,11 @@ _G.packer_plugins = {
     path = "/home/ojuice/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["solarized-osaka.nvim"] = {
+    loaded = true,
+    path = "/home/ojuice/.local/share/nvim/site/pack/packer/start/solarized-osaka.nvim",
+    url = "https://github.com/craftzdog/solarized-osaka.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/ojuice/.local/share/nvim/site/pack/packer/start/telescope.nvim",

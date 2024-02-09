@@ -6,3 +6,10 @@ function colormyPencil(color)
 end
 
 colormyPencil()
+
+function transparencyToggle()
+    vim.cmd.colorscheme("solarized-osaka")
+    --vim.cmd.colorscheme("gruvbox")
+    vim.api.nvim_set_hl(1,"Normal",{bg="black"})
+    vim.api.nvim_set_hl(1,"NormalFloat",{bg="black"})
+end
