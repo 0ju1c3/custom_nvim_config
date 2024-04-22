@@ -16,6 +16,11 @@ vim.wo.number = true
 vim.g.mapleader = " "
 vim.keymap.set("n","<leader>pv",vim.cmd.Ex)--project view
 vim.keymap.set('i', 'jj', '<Esc>', { noremap = true })
+--movement in insert mode
+vim.api.nvim_set_keymap('i', '<C-k>', '<C-o>gk', { noremap = true })
+vim.api.nvim_set_keymap('i', '<C-h>', '<Left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<C-l>', '<Right>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<C-j>', '<C-o>gj', { noremap = true })
 --look into theprimeagen remap
 --
 vim.opt.scrolloff= 8
